@@ -1,0 +1,25 @@
+Everything about <meta charset="UTF-8">:
+   In HTML, the "meta" element is used to add metadata to a document. 
+Metadata is data that describes the document, like it's title, author, or character encoding.
+The "meta" element takes a "name" attribute, which specifies the type of metadata,
+ and a "content" attribute, which contains the actual metadata.
+In this case, the name attribute is "charset" and the content attribute is "UTF-8".
+That means the metadata is character encoding information, and the encoding is UTF-8.
+
+UTF-8 character encoding:
+   UTF-8 is an encoding standard that represents every characterin the Unicode standard,
+    including charactersin any language.
+The Unicode standard is a way of representing every character, letter, 
+or symbol ina any language using a unique number called a code point.
+So, UTF-8 represents each code point using 1 to 4bytes.
+The reason it's so popular is that it's compatible with ASCII, 
+so older systems that only support ASCII can still read UTF-8 text,
+and it's efficient because it only uses 1 byte for most characters.
+It's also the best choice for web developers.
+
+Few Reasons You Should Always Use the "meta" Element to Declare the Character Encoding: 
+1. It ensures that the browser displays the text correctly.
+ Without the "meta" element, the browser might guess the encoding incorrectly, 
+ which could cause broken characters and weird symbols.
+ 2. It ensures that the search engines can index the content correctly.
+ 3. It helps accessibility tools read the content correctly.
